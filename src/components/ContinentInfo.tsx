@@ -1,0 +1,102 @@
+import { Flex, Image, Text } from "@chakra-ui/react";
+
+export const ContinentInfo = () => {
+  return(
+    <Flex
+      w="100%"
+      py="20"
+      px="36"
+      flexDir="row"
+      alignItems="center"
+      justifyContent="space-around"
+    >
+      <Text 
+        color="gray.700"
+        fontSize="24px"
+        fontWeight="400"
+        textAlign="justify"
+        w="50%"
+      >
+        A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste
+      </Text>
+
+      <Flex
+        flexDir="row"
+        alignItems="center"
+        justifyContent="center"
+        pl="70px"
+      >
+        <Flex
+          flexDir="column"
+          alignItems="center"
+          justifyContent="center"
+          mr="10"
+        >
+          <Text
+            color="yellow.400"
+            fontSize="48px"
+            fontWeight="600"
+          >
+            50
+          </Text>
+          <Text
+            color="black"
+            fontWeight="600"
+          >
+            países
+          </Text>
+        </Flex>
+
+        <Flex
+          flexDir="column"
+          alignItems="center"
+          justifyContent="center"
+          mr="10"
+        >
+          <Text
+            color="yellow.400"
+            fontSize="48px"
+            fontWeight="600"
+          >
+            60
+          </Text>
+          <Text
+            color="black"
+            fontWeight="600"
+          >
+            línguas
+          </Text>
+        </Flex>
+
+        <Flex
+          flexDir="column"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <Text
+            color="yellow.400"
+            fontSize="48px"
+            fontWeight="600"
+          >
+            27
+          </Text>
+          <Flex
+            flexDir="row"
+          >
+            <Text
+              color="black"
+              fontWeight="600"
+            >
+              cidades +100
+            </Text>
+            <Image
+              src="info.svg"
+              pl="1"
+            />
+          </Flex>
+        </Flex>
+      </Flex>
+    </Flex>
+
+  );
+}
