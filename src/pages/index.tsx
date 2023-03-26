@@ -173,7 +173,6 @@ export default function Home() {
       w="100vw"
       h="100vh"
       flexDir="column"
-      bg="red"
     >
       <Header />
       <Banner />
